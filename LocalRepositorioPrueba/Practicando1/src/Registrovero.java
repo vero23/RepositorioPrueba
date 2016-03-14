@@ -36,6 +36,7 @@ public class Registrovero extends HttpServlet {
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
+		//primer cambio :v
 		String correo= request.getParameter("txtcorreo");
 		String clave= request.getParameter("txtclave");
 		String sexo= request.getParameter("rdsexo");
